@@ -1,39 +1,39 @@
-"StageName","StageType","Result","Resource Start","Direction","Name","Type","Value"
-,"Undefined","Created session log","12/8/2019 1:14:57 PM"
-"Start","Start",,"12/8/2019 1:14:57 PM"
-"For each","SubSheet",,"12/8/2019 1:14:57 PM"
-
-,,,,"OUT","Total Quantity","number","22"
-"Start","Start",,"12/8/2019 1:14:57 PM"
-"Loop Start1","LoopStart","1 of 5","12/8/2019 1:14:57 PM"
-"Total Quantity","Calculation","4","12/8/2019 1:14:57 PM"
-"Loop End1","LoopEnd","1 of 5","12/8/2019 1:14:57 PM"
-"Total Quantity","Calculation","12","12/8/2019 1:14:57 PM"
-"Loop End1","LoopEnd","2 of 5","12/8/2019 1:14:57 PM"
-"Total Quantity","Calculation","21","12/8/2019 1:14:57 PM"
-"Loop End1","LoopEnd","3 of 5","12/8/2019 1:14:57 PM"
-"Total Quantity","Calculation","21","12/8/2019 1:14:57 PM"
-"Loop End1","LoopEnd","4 of 5","12/8/2019 1:14:57 PM"
-"Total Quantity","Calculation","22","12/8/2019 1:14:57 PM"
-"Loop End1","LoopEnd","5 of 5","12/8/2019 1:14:57 PM"
-"End","End",,"12/8/2019 1:14:57 PM"
-
-,,,,"OUT","Total Quantity","number","22"
-"for loop","SubSheet",,"12/8/2019 1:14:57 PM"
-
-,,,,"IN","Loop count","number","0"
-,,,,"IN","Max Loop Count","number","3"
-"Start","Start",,"12/8/2019 1:14:57 PM"
-
-,,,,"IN","Loop count","number","0"
-,,,,"IN","Max Loop Count","number","3"
-"Increment Loop count","Calculation","1","12/8/2019 1:14:57 PM"
-"loop?","Decision","True","12/8/2019 1:14:57 PM"
-"Note1","Note","Execute the statement","12/8/2019 1:14:57 PM"
-"Increment Loop count","Calculation","2","12/8/2019 1:14:57 PM"
-"loop?","Decision","True","12/8/2019 1:14:57 PM"
-"Note1","Note","Execute the statement","12/8/2019 1:14:57 PM"
-"Increment Loop count","Calculation","3","12/8/2019 1:14:57 PM"
-"loop?","Decision","False","12/8/2019 1:14:57 PM"
-"End","End",,"12/8/2019 1:14:57 PM"
-"End","End",,"12/8/2019 1:14:57 PM"
+StageName,StageType,Result,Resource Start,Direction,Name,Type,Value,Newly Added
+,Undefined,Created session log,12-08-2019 13:14,,,,,
+Start,Start,,12-08-2019 13:14,,,,,
+For each,SubSheet,,12-08-2019 13:14,,,,,
+,,,,,,,,
+,,,,OUT,Total Quantity,number,22,
+Start,Start,,12-08-2019 13:14,,,,,
+Loop Start1,LoopStart,1 of 5,12-08-2019 13:14,,,,,
+Total Quantity,Calculation,4,12-08-2019 13:14,,,,,
+Loop End1,LoopEnd,1 of 5,12-08-2019 13:14,,,,,
+Total Quantity,Calculation,12,12-08-2019 13:14,,,,,
+Loop End1,LoopEnd,2 of 5,12-08-2019 13:14,,,,,
+Total Quantity,Calculation,21,12-08-2019 13:14,,,,,
+Loop End1,LoopEnd,3 of 5,12-08-2019 13:14,,,,,
+Total Quantity,Calculation,21,12-08-2019 13:14,,,,,
+Loop End1,LoopEnd,4 of 5,12-08-2019 13:14,,,,,
+Total Quantity,Calculation,22,12-08-2019 13:14,,,,,
+Loop End1,LoopEnd,5 of 5,12-08-2019 13:14,,,,,
+End,End,,12-08-2019 13:14,,,,,
+,,,,,,,,
+,,,,OUT,Total Quantity,number,22,
+for loop,SubSheet,,12-08-2019 13:14,,,,,
+,,,,,,,,
+,,,,IN,Loop count,number,0,
+,,,,IN,Max Loop Count,number,3,
+Start,Start,,12-08-2019 13:14,,,,,
+,,,,,,,,
+,,,,IN,Loop count,number,0,
+,,,,IN,Max Loop Count,number,3,
+Increment Loop count,Calculation,1,12-08-2019 13:14,,,,,
+loop?,Decision,TRUE,12-08-2019 13:14,,,,,
+Note1,Note,Execute the statement,12-08-2019 13:14,,,,,
+Increment Loop count,Calculation,2,12-08-2019 13:14,,,,,
+loop?,Decision,TRUE,12-08-2019 13:14,,,,,
+Note1,Note,Execute the statement,12-08-2019 13:14,,,,,
+Increment Loop count,Calculation,3,12-08-2019 13:14,,,,,
+loop?,Decision,FALSE,12-08-2019 13:14,,,,,
+End,End,,12-08-2019 13:14,,,,,
+End,End,,12-08-2019 13:14,,,,,
